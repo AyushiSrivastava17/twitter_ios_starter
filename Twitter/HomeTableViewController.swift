@@ -22,7 +22,7 @@ class HomeTableViewController: UITableViewController {
     func loadTweet(){
         
         let myURL = "https://api.twitter.com/1.1/statuses/home_timeline.json"
-        let myParams = ["count": 1]
+        let myParams = ["count": 10]
         
         TwitterAPICaller.client?.getDictionariesRequest(url: myURL, parameters: myParams, success: { (tweets: [NSDictionary]) in
             
@@ -36,10 +36,6 @@ class HomeTableViewController: UITableViewController {
         }, failure: { (Error) in
             print("Could not retreieve tweets! oh no!!")
         })
-        
-        
-        
-        
     
     }
     
