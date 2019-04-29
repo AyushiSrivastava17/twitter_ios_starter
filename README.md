@@ -2,7 +2,7 @@
 
 SimplerTwitter is a basic twitter app to read your tweets.
 
-Time spent: 2 hours spent in total
+Time spent: 3 hours spent in total
 
 ## User Stories
 The app was very interesting to make. Having to make such an app also involved me reopening my very unused twitter account in hopes of being able to show how it works.
